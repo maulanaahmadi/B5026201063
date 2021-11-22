@@ -29,4 +29,17 @@ Route::get('tugasphp', 'ViewController@showtugasphp1');
 
 Route::post('tugasphpdua', 'ViewController@showtugasphp2');
 
+//route CRUD
+Route::get('/pegawai','PegawaiController@index');
+
+Route::get('/pegawai/tambah','PegawaiController@tambah');
+
+Route::post('/pegawai/store','PegawaiController@store');
+
+Route::get('/pegawai/edit/{id}','PegawaiController@edit');
+
+Route::post('/pegawai/update','PegawaiController@update');
+
+Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
+
 
