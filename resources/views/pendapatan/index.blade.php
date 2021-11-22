@@ -34,7 +34,7 @@
 			<td>
 				<a href="/pendapatan/edit/{{ $p->pendapatan_id }}">Edit</a>
 				|
-				<a href="/pendapatan/hapus/{{ $p->pendpatan_id }}">Hapus</a>
+				<a href="/pendapatan/hapus/{{ $p->pendapatan_id }}">Hapus</a>
 			</td>
 		</tr>
 		@endforeach
