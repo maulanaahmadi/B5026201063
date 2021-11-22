@@ -42,4 +42,11 @@ Route::post('/pegawai/update','PegawaiController@update');
 
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 
+//route CRUD
+Route::get('/pendapatan','PendapatanController@index');
+
+Route::get('/pendapatan/tambah','PendapatanController@tambah');
+
+Route::post('/pendapaatan/store','PegawaiController@store');
+
 
