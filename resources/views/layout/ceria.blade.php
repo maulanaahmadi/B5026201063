@@ -25,7 +25,7 @@
     </div>
     <div class="col-sm-10">
     <header>
-        <img src="{{asset('foto aldi.jpg')}}" class="img-responsive" style="width:10%;" alt="foto">
+        <img src="{{asset('fotoaldi.jpg')}}" class="img-responsive" style="width:10%;" alt="foto">
         <h1 style="font-size:20px">Maulana Ahmadi</h1>
         <p>5026201063</p>
     </header>
