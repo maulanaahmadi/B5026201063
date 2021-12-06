@@ -62,6 +62,10 @@ Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update','AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
 
+Route::get('/ceria', function () {
+    return view('layout.ceria');
+});
+
 
 
 

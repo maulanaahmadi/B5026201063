@@ -1,27 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <head>
-        <!doctype html>
-        <html lang="en">
-          <head>
-            <!-- Required meta tags -->
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.ceria')
 
-            <!-- Bootstrap CSS -->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+@section('isikonten')
 
-	<title>ABSEN PEGAWAI</title>
-</head>
-<body class="container m-4">
+	<h2><a href="https://www.malasngoding.com"></a></h2>
+	<h3>Absen Pegawai</h3>
 
-	<h3>Data Pegawai</h3>
-
-	<a href="/absen/tambah" class="btn btn-primary" > + Tambah Absen Pegawai Baru</a>
-
+    <a href="/absen/tambah" class="btn btn-primary" > + Tambah Absen Pegawai Baru</a>
 	<br/>
-	<br/>
+    <br/>
 
 	<table class="table table-success table-striped">
 		<tr>
@@ -45,7 +31,5 @@
 		</tr>
 		@endforeach
 	</table>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-</html>
+@endsection

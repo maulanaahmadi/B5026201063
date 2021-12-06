@@ -11,9 +11,35 @@
     	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
 		<script src="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
 </head>
-<body class="container m-4">
+<body>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="primary"><a href="/pegawai">Pegawai</a></li>
+          <li class="primary"><a href="/absen">Absen</a></li>
+          <li class="primary"><a href="/pendapatan">Pendapatan</a></li>
+        </ul>
+    </div>
+    <div class="col-sm-10">
+    <header>
+        <img src="{{asset('foto aldi.jpg')}}" class="img-responsive" style="width:10%;" alt="foto">
+        <h1 style="font-size:20px">Maulana Ahmadi</h1>
+        <p>5026201063</p>
+    </header>
+    <hr>
+
 
 @section('isikonten')
 @show
 </body>
+<hr>
+<footer>
+    Hak Cipta Oleh Maulana Ahmadi - 5026201063
+</footer>
+</div>
+        </div>
+
 </html>
