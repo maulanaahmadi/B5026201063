@@ -34,12 +34,12 @@
 
 @section('isikonten')
 @show
-</body>
+
 <hr>
 <footer>
     Hak Cipta Oleh Maulana Ahmadi - 5026201063
 </footer>
 </div>
         </div>
-
+</body>
 </html>

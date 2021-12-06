@@ -1,4 +1,6 @@
-  @extends('layout.ceria')
+<!DOCTYPE html>
+<html>
+ @extends('layout.ceria')
 
     @section('isikonten')
 
@@ -39,5 +41,6 @@
             <label for="tidak">TIDAK HADIR</label><br/><br>
             <input type="submit" value="Simpan Data">
         </form>
+</html>
 
     @endsection
