@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
+    @extends('layout.ceria')
+
+@section('title', 'EDIT PEGAWAI')
+
+@section('isikonten')
 <head>
 	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
 </head>
 <body>
 
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
 	<h3>Edit Pegawai</h3>
 
 	<a href="/pegawai"> Kembali</a>
@@ -28,3 +32,5 @@
 
 </body>
 </html>
+@endforeach
+    @endsection

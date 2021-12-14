@@ -7,7 +7,6 @@
 
 @section('isikonten')
 
-<h2><a href="https://www.malasngoding.com"></a></h2>
 	<h3>Edit Absen</h3>
 
     <a href="/absen"> Kembali</a>

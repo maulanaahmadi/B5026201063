@@ -10,7 +10,7 @@ class AbsenController extends Controller
     public function index()
     {
     	// mengambil data dari table pegawai
-    	$absen = DB::table('absen')->get();
+    	$absen = DB::table('absen')->paginate(5);
 
     	// mengirim data pegawai ke view index
     	return view('absen.index',['absen' => $absen]);
@@ -73,6 +73,13 @@ public function hapus($id)
 
 	// alihkan halaman ke halaman pegawai
 	return redirect('/absen');
+}
+public function detail($id)
+{
+	// mengambil data pegawai berdasarkan id yang dipilih
+	$absen = DB::table('absen')->where('ID',$id)->get();
+	// passing data pegawai yang didapat ke view detail.blade.php
+	return view('absen.detail',['absen' => $absen]);
 }
 }
 
