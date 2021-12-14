@@ -16,6 +16,7 @@
 	<br/>
 
 	<table border="1">
+        <table class="table table-success table-striped">
 		<tr>
 			<th>Nama</th>
 			<th>Jabatan</th>
@@ -37,6 +38,7 @@
 		</tr>
 		@endforeach
 	</table>
+    {{$pegawai->links()}}
 
 
 </body>

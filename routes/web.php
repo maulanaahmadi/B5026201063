@@ -66,6 +66,16 @@ Route::get('/absen/detail/{id}','AbsenController@detail');
     //return view('layout.ceria');
 //});
 
+//route CRUD tabel unggas
+Route::get('/unggas','UnggasController@index');
+Route::get('/unggas/add','UnggasController@add');
+Route::post('/unggas/store','UnggasController@store');
+Route::get('/unggas/edit/{id}','UnggasController@edit');
+Route::post('/unggas/update','UnggasController@update');
+Route::get('/unggas/hapus/{id}','UnggasController@hapus');
+Route::get('/unggas/cari','UnggasController@cari');
+Route::get('/unggas/detail/{id}','UnggasController@detail');
+
 
 
 

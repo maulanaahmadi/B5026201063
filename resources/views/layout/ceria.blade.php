@@ -21,6 +21,7 @@
           <li class="primary"><a href="/pegawai">Pegawai</a></li>
           <li class="primary"><a href="/absen">Absen</a></li>
           <li class="primary"><a href="/pendapatan">Pendapatan</a></li>
+          <li class="primary"><a href="/unggas">Praktikum</a></li>
         </ul>
     </div>
     <div class="col-sm-10">

@@ -17,6 +17,7 @@
 	<br/>
 
 	<table border="1">
+        <table class="table table-success table-striped">
 		<tr>
 			<th>ID</th>
 			<th>IDPegawai</th>
@@ -42,6 +43,7 @@
 		</tr>
 		@endforeach
 	</table>
+    {{$pendapatan->links()}}
 
 
 </body>
