@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+@extends('layout.ceria')
+
+@section('title', 'EDIT PENDAPATAN')
+
+@section('isikonten')
 <head>
 	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
 </head>
@@ -24,8 +29,10 @@
 		<input type="submit" value="Simpan Data">
 
 	</form>
-	@endforeach
+
 
 
 </body>
 </html>
+@endforeach
+    @endsection
