@@ -22,6 +22,7 @@
           <li class="primary"><a href="/absen">Absen</a></li>
           <li class="primary"><a href="/pendapatan">Pendapatan</a></li>
           <li class="primary"><a href="/unggas">Praktikum</a></li>
+          <li class="primary"><a href="/nilaikuliah">EAS E5</a></li>
         </ul>
     </div>
     <div class="col-sm-10">

@@ -76,6 +76,15 @@ Route::get('/unggas/hapus/{id}','UnggasController@hapus');
 Route::get('/unggas/cari','UnggasController@cari');
 Route::get('/unggas/detail/{id}','UnggasController@detail');
 
+//route CRUD tabel nilai kuliah
+Route::get('/nilaikuliah','NilaikuliahController@index');
+Route::get('/nilaikuliah/add','NilaikuliahController@add');
+Route::post('/nilaikuliah/store','NilaikuliahController@store');
+Route::get('/nilaikuliah/edit/{id}','NilaikuliahController@edit');
+Route::post('/nilaikuliah/update','NilaikuliahController@update');
+Route::get('/nilaikuliah/hapus/{id}','NilaikuliahController@hapus');
+
+
 
 
 
